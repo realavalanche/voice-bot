@@ -12,4 +12,4 @@ pytest-asyncio==0.24.0
 pytest-mock==3.14.0
 python-dotenv==1.0.1
 twilio==9.3.5
-audioop-lts==0.2.1
+# audioop is built-in on Python 3.11; audioop-lts is only needed on 3.13+
