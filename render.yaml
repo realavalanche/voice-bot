@@ -3,7 +3,7 @@ services:
     name: reid-taylor-backend
     runtime: python
     rootDir: backend
-    buildCommand: pip install -r requirements.txt && cd ../frontend && npm install && npm run build && cp -r dist ../backend/frontend_dist
+    buildCommand: pip install -r requirements.txt
     startCommand: >
       gunicorn app.main:app
       --workers 2
@@ -22,3 +22,12 @@ services:
       - key: PYTHON_VERSION
         value: "3.11"
     healthCheckPath: /health
+
+  - type: static
+    name: reid-taylor-frontend
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://voice-bot-c94z.onrender.com
