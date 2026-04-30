@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: reid-taylor-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: >
+      gunicorn app.main:app
+      --workers 2
+      --worker-class uvicorn.workers.UvicornWorker
+      --bind 0.0.0.0:$PORT
+      --timeout 30
+      --graceful-timeout 10
+      --log-level info
+    envVars:
+      - key: SARVAM_API_KEY
+        sync: false
+      - key: CHROMA_PERSIST_DIR
+        value: /data/chroma
+      - key: FAQ_PDF_PATH
+        value: data/faq.pdf
+      - key: PRODUCTS_JSON_PATH
+        value: data/products.json
+      - key: PYTHON_VERSION
+        value: "3.11"
+    disk:
+      name: chroma-data
+      mountPath: /data
+      sizeGB: 1
+    healthCheckPath: /health

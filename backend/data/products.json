@@ -1,0 +1,338 @@
+[
+  {
+    "id": "fs_001", "name": "Oxford Formal Shirt - White", "category": "formal_shirt",
+    "price": 2999, "colors": ["White", "Light Blue", "Cream"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Oxford Cotton",
+    "description": "Classic Oxford weave formal shirt. Breathable and durable for business meetings.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "fs_002", "name": "Oxford Formal Shirt - Light Blue", "category": "formal_shirt",
+    "price": 2999, "colors": ["Light Blue", "Sky Blue"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Slim Fit", "fabric": "Oxford Cotton",
+    "description": "Slim-cut Oxford shirt in cool blue tones. Sharp silhouette for the modern professional.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "fs_003", "name": "Spread Collar Formal Shirt - White", "category": "formal_shirt",
+    "price": 3299, "colors": ["White", "Pastel Pink"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Tailor Fit", "fabric": "100% Cotton",
+    "description": "Premium spread collar shirt tailored for a polished boardroom look.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "fs_004", "name": "Herringbone Formal Shirt - Navy", "category": "formal_shirt",
+    "price": 3499, "colors": ["Navy", "Charcoal"], "sizes": [38, 40, 42, 44],
+    "fit": "Regular Fit", "fabric": "Herringbone Weave Cotton",
+    "description": "Subtle herringbone texture adds sophistication to this navy formal shirt.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "fs_005", "name": "Dobby Texture Formal Shirt - White", "category": "formal_shirt",
+    "price": 3299, "colors": ["White", "Off White"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Slim Fit", "fabric": "Dobby Cotton",
+    "description": "Dobby-woven texture gives this formal shirt subtle visual interest.",
+    "in_stock": false, "collection": "SS26"
+  },
+  {
+    "id": "cs_001", "name": "Linen Casual Shirt - Sky Blue", "category": "casual_shirt",
+    "price": 2499, "colors": ["Sky Blue", "Mint Green", "White"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Linen Blend",
+    "description": "Breathable linen-blend casual shirt. Perfect for weekend brunches and casual Fridays.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "cs_002", "name": "Printed Casual Shirt - Tropical", "category": "casual_shirt",
+    "price": 2499, "colors": ["Green", "Blue", "Orange"], "sizes": [38, 40, 42, 44],
+    "fit": "Regular Fit", "fabric": "Viscose",
+    "description": "Vibrant tropical print casual shirt for a relaxed, resort-ready look.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "cs_003", "name": "Chambray Casual Shirt - Indigo", "category": "casual_shirt",
+    "price": 2699, "colors": ["Indigo", "Light Wash"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Slim Fit", "fabric": "Chambray Cotton",
+    "description": "Soft chambray fabric gives this casual shirt a vintage-inspired feel.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "cs_004", "name": "Check Casual Shirt - Red/Black", "category": "casual_shirt",
+    "price": 2499, "colors": ["Red", "Black", "Grey"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Cotton Flannel",
+    "description": "Classic tartan check flannel shirt. Versatile styling for casual outings.",
+    "in_stock": true, "collection": "AW26"
+  },
+  {
+    "id": "cs_005", "name": "Solid Casual Shirt - Olive", "category": "casual_shirt",
+    "price": 2499, "colors": ["Olive", "Khaki", "Rust"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Cotton Twill",
+    "description": "Versatile solid casual shirt in earthy tones. Great for smart casual outfits.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ds_001", "name": "Slim Denim Shirt - Light Wash", "category": "denim_shirt",
+    "price": 2699, "colors": ["Light Wash", "Medium Wash"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Slim Fit", "fabric": "100% Cotton Denim",
+    "description": "Classic denim shirt in light wash. Pair with chinos for smart casual.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ds_002", "name": "Western Denim Shirt - Dark Wash", "category": "denim_shirt",
+    "price": 2899, "colors": ["Dark Wash", "Black Wash"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Stretch Denim",
+    "description": "Dark-wash denim shirt with western-style yoke detailing.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ds_003", "name": "Acid Wash Denim Shirt - Blue", "category": "denim_shirt",
+    "price": 2799, "colors": ["Blue", "Grey"], "sizes": [38, 40, 42, 44],
+    "fit": "Regular Fit", "fabric": "Cotton Denim",
+    "description": "Vintage-inspired acid wash denim shirt for a retro casual look.",
+    "in_stock": false, "collection": "SS26"
+  },
+  {
+    "id": "ts_001", "name": "Pique Polo T-Shirt - Navy", "category": "t_shirt",
+    "price": 1299, "colors": ["Navy", "White", "Black", "Red"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Regular Fit", "fabric": "Pique Cotton",
+    "description": "Classic pique polo. Neat collar and placket for a smart casual look.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ts_002", "name": "Round Neck T-Shirt - White", "category": "t_shirt",
+    "price": 999, "colors": ["White", "Black", "Grey", "Navy"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Regular Fit", "fabric": "100% Cotton Jersey",
+    "description": "Essential round-neck tee in premium cotton jersey. Wardrobe staple.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ts_003", "name": "Graphic Print T-Shirt - Black", "category": "t_shirt",
+    "price": 1199, "colors": ["Black", "White", "Grey"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Regular Fit", "fabric": "Cotton Jersey",
+    "description": "Bold graphic print tee. Statement piece for casual styling.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ts_004", "name": "V-Neck T-Shirt - Grey Melange", "category": "t_shirt",
+    "price": 1099, "colors": ["Grey Melange", "White", "Navy"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Slim Fit", "fabric": "Cotton-Modal Blend",
+    "description": "Soft cotton-modal V-neck tee with a subtle drape for a premium feel.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ts_005", "name": "Henley T-Shirt - Olive", "category": "t_shirt",
+    "price": 1299, "colors": ["Olive", "Burgundy", "Teal"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Regular Fit", "fabric": "Cotton Slub",
+    "description": "Casual henley with three-button placket. Textured slub fabric.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ft_001", "name": "Bi-Stretch Formal Trouser - Navy", "category": "formal_trouser",
+    "price": 2499, "colors": ["Navy", "Charcoal Grey", "Black"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Bi-Stretch Polyester",
+    "description": "Signature bi-stretch trousers with horizontal and vertical flex for all-day comfort.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ft_002", "name": "Bi-Stretch Formal Trouser - Charcoal", "category": "formal_trouser",
+    "price": 2499, "colors": ["Charcoal", "Dark Grey"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Slim Fit", "fabric": "Bi-Stretch Polyester",
+    "description": "Slim-cut bi-stretch trousers in classic charcoal. Perfect for formal occasions.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ft_003", "name": "Wool Blend Formal Trouser - Black", "category": "formal_trouser",
+    "price": 2999, "colors": ["Black"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Tailor Fit", "fabric": "Wool Blend",
+    "description": "Premium wool-blend trousers with a sharp tailor fit for black-tie occasions.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ft_004", "name": "Pleated Formal Trouser - Beige", "category": "formal_trouser",
+    "price": 2699, "colors": ["Beige", "Khaki", "Light Grey"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Cotton Blend",
+    "description": "Classic pleated trousers in neutral tones. Timeless and versatile.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ft_005", "name": "Striped Formal Trouser - Navy/White", "category": "formal_trouser",
+    "price": 2699, "colors": ["Navy", "White"], "sizes": [30, 32, 34, 36],
+    "fit": "Regular Fit", "fabric": "Cotton Blend",
+    "description": "Classic pinstripe formal trousers for a distinguished boardroom presence.",
+    "in_stock": false, "collection": "SS26"
+  },
+  {
+    "id": "ch_001", "name": "Cotton Chino - Khaki", "category": "chino",
+    "price": 2499, "colors": ["Khaki", "Olive", "Beige"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Slim Fit", "fabric": "100% Cotton Twill",
+    "description": "Classic cotton chinos in versatile khaki. Smart casual wardrobe essential.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ch_002", "name": "Stretch Chino - Navy", "category": "chino",
+    "price": 2499, "colors": ["Navy", "Dark Green", "Burgundy"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Slim Fit", "fabric": "Stretch Cotton Blend",
+    "description": "Stretch chinos with added comfort and a clean silhouette for modern smart casual.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ch_003", "name": "Cargo Chino - Olive", "category": "chino",
+    "price": 2699, "colors": ["Olive", "Khaki", "Black"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Cotton Twill",
+    "description": "Utility-inspired cargo chinos with side pockets. Functional and stylish.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "ch_004", "name": "Linen Chino - Sand", "category": "chino",
+    "price": 2699, "colors": ["Sand", "White", "Sky Blue"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Linen Blend",
+    "description": "Lightweight linen chinos for summer. Cool and breathable in warm weather.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "dj_001", "name": "Slim Fit Jeans - Dark Wash", "category": "denim_jeans",
+    "price": 2499, "colors": ["Dark Wash", "Black", "Indigo"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Slim Fit", "fabric": "Stretch Denim",
+    "description": "Slim-cut stretch jeans with a dark wash. Smart enough for casual Fridays.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "dj_002", "name": "Regular Fit Jeans - Medium Wash", "category": "denim_jeans",
+    "price": 2499, "colors": ["Medium Wash", "Light Wash"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "100% Cotton Denim",
+    "description": "Classic regular fit jeans in a timeless medium wash. Everyday essential.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "dj_003", "name": "Tapered Jeans - Black", "category": "denim_jeans",
+    "price": 2699, "colors": ["Black", "Charcoal"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Tapered Fit", "fabric": "Stretch Denim",
+    "description": "Tapered leg black jeans for a contemporary silhouette. Pairs with anything.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "dj_004", "name": "Distressed Jeans - Light Wash", "category": "denim_jeans",
+    "price": 2799, "colors": ["Light Wash", "Medium Wash"], "sizes": [30, 32, 34, 36],
+    "fit": "Slim Fit", "fabric": "Cotton Denim",
+    "description": "Casual distressed jeans with worn-in details for a relaxed, lived-in look.",
+    "in_stock": false, "collection": "SS26"
+  },
+  {
+    "id": "bl_001", "name": "Single Breasted Blazer - Navy", "category": "blazer",
+    "price": 6999, "colors": ["Navy", "Charcoal", "Black"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Polyester Blend",
+    "description": "Classic single-breasted blazer. Essential for smart casual and business attire.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "bl_002", "name": "Linen Blazer - Beige", "category": "blazer",
+    "price": 5999, "colors": ["Beige", "White", "Light Blue"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Linen Blend",
+    "description": "Lightweight linen blazer for summer occasions. Relaxed yet refined.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "bl_003", "name": "Checked Blazer - Blue/White", "category": "blazer",
+    "price": 7499, "colors": ["Blue", "White", "Grey"], "sizes": [38, 40, 42, 44],
+    "fit": "Slim Fit", "fabric": "Wool Blend",
+    "description": "Statement checked blazer in a bold blue-white pattern. Confident styling choice.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "bl_004", "name": "Velvet Blazer - Burgundy", "category": "blazer",
+    "price": 7999, "colors": ["Burgundy", "Midnight Blue"], "sizes": [38, 40, 42, 44],
+    "fit": "Slim Fit", "fabric": "Velvet",
+    "description": "Luxurious velvet blazer for evening occasions and celebrations.",
+    "in_stock": true, "collection": "AW26"
+  },
+  {
+    "id": "bl_005", "name": "Double Breasted Blazer - Charcoal", "category": "blazer",
+    "price": 7499, "colors": ["Charcoal", "Navy"], "sizes": [38, 40, 42, 44, 46],
+    "fit": "Regular Fit", "fabric": "Polyester Wool Blend",
+    "description": "Bold double-breasted blazer for a powerful boardroom presence.",
+    "in_stock": false, "collection": "AW26"
+  },
+  {
+    "id": "sh_001", "name": "Cargo Shorts - Khaki", "category": "shorts",
+    "price": 1699, "colors": ["Khaki", "Olive", "Navy"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Cotton Twill",
+    "description": "Utility cargo shorts with multiple pockets. Ideal for weekend adventures.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "sh_002", "name": "Chino Shorts - Navy", "category": "shorts",
+    "price": 1599, "colors": ["Navy", "Beige", "Olive"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Slim Fit", "fabric": "Cotton Twill",
+    "description": "Smart chino shorts for a polished summer casual look.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "sh_003", "name": "Denim Shorts - Light Wash", "category": "shorts",
+    "price": 1799, "colors": ["Light Wash", "Dark Wash"], "sizes": [30, 32, 34, 36],
+    "fit": "Regular Fit", "fabric": "Cotton Denim",
+    "description": "Classic denim shorts for casual summer outings.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "sh_004", "name": "Linen Shorts - White", "category": "shorts",
+    "price": 1699, "colors": ["White", "Beige", "Light Blue"], "sizes": [30, 32, 34, 36, 38],
+    "fit": "Regular Fit", "fabric": "Linen Blend",
+    "description": "Breezy linen shorts for beach days and resort wear.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "tp_001", "name": "Slim Fit Track Pant - Black", "category": "track_pant",
+    "price": 1499, "colors": ["Black", "Navy", "Grey"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Slim Fit", "fabric": "Polyester Jersey",
+    "description": "Slim-cut track pants with two side pockets and elastic waist.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "tp_002", "name": "Jogger Track Pant - Grey Melange", "category": "track_pant",
+    "price": 1699, "colors": ["Grey Melange", "Black", "Navy"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Regular Fit", "fabric": "Cotton Fleece",
+    "description": "Comfortable jogger-style track pants in soft cotton fleece.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "tp_003", "name": "Dry-Fit Track Pant - Royal Blue", "category": "track_pant",
+    "price": 1599, "colors": ["Royal Blue", "Black", "Red"], "sizes": ["S", "M", "L", "XL", "XXL"],
+    "fit": "Slim Fit", "fabric": "Polyester Dry-Fit",
+    "description": "Moisture-wicking dry-fit track pants for active workouts and sports.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "be_001", "name": "Genuine Leather Belt - Brown", "category": "belt",
+    "price": 1299, "colors": ["Brown", "Tan"], "sizes": ["32", "34", "36", "38", "40"],
+    "fit": null, "fabric": "Genuine Leather",
+    "description": "Classic genuine leather belt with a polished pin buckle. Works with formal and casual.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "be_002", "name": "Genuine Leather Belt - Black", "category": "belt",
+    "price": 1299, "colors": ["Black"], "sizes": ["32", "34", "36", "38", "40"],
+    "fit": null, "fabric": "Genuine Leather",
+    "description": "Essential black leather belt. Pairs seamlessly with formal trousers.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "be_003", "name": "Woven Canvas Belt - Navy", "category": "belt",
+    "price": 899, "colors": ["Navy", "Olive", "Khaki"], "sizes": ["32", "34", "36", "38", "40"],
+    "fit": null, "fabric": "Canvas",
+    "description": "Casual woven canvas belt. Great with chinos and denim.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "be_004", "name": "Reversible Leather Belt - Black/Brown", "category": "belt",
+    "price": 1499, "colors": ["Black", "Brown"], "sizes": ["32", "34", "36", "38", "40"],
+    "fit": null, "fabric": "Genuine Leather",
+    "description": "Reversible belt offering two looks in one. Versatile wardrobe addition.",
+    "in_stock": true, "collection": "SS26"
+  },
+  {
+    "id": "be_005", "name": "Braided Leather Belt - Tan", "category": "belt",
+    "price": 1099, "colors": ["Tan", "Brown"], "sizes": ["32", "34", "36", "38"],
+    "fit": null, "fabric": "Leather",
+    "description": "Braided leather belt for a relaxed, bohemian casual look.",
+    "in_stock": true, "collection": "SS26"
+  }
+]

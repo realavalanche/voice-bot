@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "mempalace": {
+      "command": "mempalace",
+      "args": [
+        "mcp",
+        "stdio"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
