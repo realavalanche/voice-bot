@@ -78,7 +78,7 @@ app.include_router(products.router)
 app.include_router(calls.router)
 
 # Serve React frontend — must come after API routers
-_FRONTEND_DIST = Path(__file__).parent.parent.parent / "frontend" / "dist"
+_FRONTEND_DIST = Path(__file__).parent.parent / "frontend_dist"
 if _FRONTEND_DIST.exists():
     app.mount("/assets", StaticFiles(directory=_FRONTEND_DIST / "assets"), name="assets")
 

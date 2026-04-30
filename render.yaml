@@ -3,7 +3,7 @@ services:
     name: reid-taylor-backend
     runtime: python
     rootDir: backend
-    buildCommand: pip install -r requirements.txt && cd ../frontend && npm install && npm run build
+    buildCommand: pip install -r requirements.txt && cd ../frontend && npm install && npm run build && cp -r dist ../backend/frontend_dist
     startCommand: >
       gunicorn app.main:app
       --workers 2
