@@ -5,7 +5,6 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
 
 from app.config import get_settings
 from app.services.chroma_service import ChromaService
@@ -69,6 +68,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from fastapi.responses import FileResponse, JSONResponse  # noqa: E402
+
 from app.routers import health, voice, chat, products, calls  # noqa: E402
 
 app.include_router(health.router)
@@ -78,13 +79,21 @@ app.include_router(products.router)
 app.include_router(calls.router)
 
 # Serve React frontend — must come after API routers
-_FRONTEND_DIST = Path(__file__).parent.parent / "frontend_dist"
-if _FRONTEND_DIST.exists():
+_FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend_dist"
+logger.info("Frontend dist path: %s — exists: %s", _FRONTEND_DIST, _FRONTEND_DIST.exists())
+
+if (_FRONTEND_DIST / "assets").exists():
     app.mount("/assets", StaticFiles(directory=_FRONTEND_DIST / "assets"), name="assets")
 
-    @app.get("/{full_path:path}", include_in_schema=False)
-    async def serve_frontend(full_path: str):
-        file = _FRONTEND_DIST / full_path
-        if file.is_file():
-            return FileResponse(file)
-        return FileResponse(_FRONTEND_DIST / "index.html")
+
+@app.get("/{full_path:path}", include_in_schema=False)
+async def serve_frontend(full_path: str):
+    if not _FRONTEND_DIST.exists():
+        return JSONResponse({"detail": f"Frontend not built — expected at {_FRONTEND_DIST}"}, status_code=503)
+    file = _FRONTEND_DIST / full_path
+    if file.is_file():
+        return FileResponse(file)
+    index = _FRONTEND_DIST / "index.html"
+    if index.exists():
+        return FileResponse(index)
+    return JSONResponse({"detail": f"index.html missing at {index}"}, status_code=503)
