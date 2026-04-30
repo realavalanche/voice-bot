@@ -15,6 +15,8 @@ services:
     envVars:
       - key: SARVAM_API_KEY
         sync: false
+      - key: PUBLIC_HOST
+        value: voice-bot-c94z.onrender.com
       - key: FAQ_PDF_PATH
         value: data/faq.pdf
       - key: PRODUCTS_JSON_PATH

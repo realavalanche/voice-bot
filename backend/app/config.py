@@ -27,6 +27,7 @@ class Settings(BaseSettings):
         # On Render, secrets are injected as real env vars which override both.
         env_file = (".env", ".env.local")
         env_file_encoding = "utf-8"
+        extra = "ignore"
 
 
 @lru_cache(maxsize=1)
