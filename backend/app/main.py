@@ -1,8 +1,11 @@
 import logging
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 from app.config import get_settings
 from app.services.chroma_service import ChromaService
@@ -73,3 +76,15 @@ app.include_router(voice.router)
 app.include_router(chat.router)
 app.include_router(products.router)
 app.include_router(calls.router)
+
+# Serve React frontend — must come after API routers
+_FRONTEND_DIST = Path(__file__).parent.parent.parent / "frontend" / "dist"
+if _FRONTEND_DIST.exists():
+    app.mount("/assets", StaticFiles(directory=_FRONTEND_DIST / "assets"), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_frontend(full_path: str):
+        file = _FRONTEND_DIST / full_path
+        if file.is_file():
+            return FileResponse(file)
+        return FileResponse(_FRONTEND_DIST / "index.html")
