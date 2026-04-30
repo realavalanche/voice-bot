@@ -6,7 +6,7 @@ venv/
 *.egg-info/
 dist/
 build/
-.env
+.env.local
 .DS_Store
 data/chroma/
 node_modules/

@@ -23,7 +23,10 @@ class Settings(BaseSettings):
     public_host: str = "localhost:8000"
 
     class Config:
-        env_file = ".env"
+        # .env.local (gitignored) takes precedence over .env (committed).
+        # On Render, secrets are injected as real env vars which override both.
+        env_file = (".env", ".env.local")
+        env_file_encoding = "utf-8"
 
 
 @lru_cache(maxsize=1)
