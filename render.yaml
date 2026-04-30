@@ -15,16 +15,10 @@ services:
     envVars:
       - key: SARVAM_API_KEY
         sync: false
-      - key: CHROMA_PERSIST_DIR
-        value: /data/chroma
       - key: FAQ_PDF_PATH
         value: data/faq.pdf
       - key: PRODUCTS_JSON_PATH
         value: data/products.json
       - key: PYTHON_VERSION
         value: "3.11"
-    disk:
-      name: chroma-data
-      mountPath: /data
-      sizeGB: 1
     healthCheckPath: /health
